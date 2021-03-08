@@ -109,7 +109,7 @@ class Profile extends Component {
                 </div>
                 <hr/>
                 <Typography variant="body2" align="center">
-                      Plantrs app is a social media-enabled botanical repository. This project is submitted to the Faculty of Information and Communication Studies in partial fulfillment of the requirements for the degree Master of Information Systems at the University of the Philippines - Open University, Los Baños, Laguna. </Typography>
+                      Plantrs app is a social media-enabled botanical repository.  </Typography>
                 <hr/>
                 <Typography variant="body2" align="center">
                       User profile is not displayed, please login.</Typography>
