@@ -121,6 +121,9 @@ class Profile extends Component {
                           Signup
                       </Button>
                   </div>
+                  <Typography variant="body2" align="center">
+                      We value your feedback. You may get in touch with our admin by sending an email to: <a href="mailto:admin@plantrs.tech?subject=Inquiry">admin@plantrs.tech</a>
+                  </Typography>
               </div>
                 
             </Paper>
