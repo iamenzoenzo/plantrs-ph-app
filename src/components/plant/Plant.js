@@ -83,7 +83,7 @@ class Plant extends Component {
                          variant="body2" 
                          component={Link} 
                          to={`/users/${userHandle}`} 
-                         color="primary">{userHandle}
+                         color="primary">@{userHandle}
                     </Typography>
                     
                     <Typography variant="body2" color="textSecondary" component="p">{dayjs(createDate).fromNow()}</Typography>

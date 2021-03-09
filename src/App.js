@@ -26,8 +26,6 @@ import axios from 'axios';
 
 const theme = createMuiTheme(themeObject);
 
-axios.defaults.baseURL = 'https://us-central1-plantrs-ph.cloudfunctions.net/api'
-
 axios.defaults.baseURL =
   'https://us-central1-plantrs-ph.cloudfunctions.net/api';
 
