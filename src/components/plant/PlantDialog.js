@@ -216,7 +216,7 @@ PlantDialog.propTypes = {
     clearErrors: PropTypes.func.isRequired,
     getPlant: PropTypes.func.isRequired,
     plantId: PropTypes.string.isRequired,
-    userHandle: PropTypes.string.isRequired,
+    userHandle: PropTypes.string,
     plant: PropTypes.object.isRequired,
     UI: PropTypes.object.isRequired
 };
