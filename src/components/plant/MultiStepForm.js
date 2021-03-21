@@ -3,7 +3,7 @@ import { useForm, useStep } from 'react-hooks-helper';
 import { Names } from './stepForm/Names';
 import { Address } from './stepForm/Address';
 import { Review } from './stepForm/Review';
-import { Submit } from './stepForm/Submit';
+import Submit from './stepForm/Submit';
 import Upload from './Upload';
 const defaultData = {
 	url2: '',

@@ -33,7 +33,7 @@ const UploadForm = ({ navigation }) => {
 	const [isImage, setIsImage] = useState(null);
 	const { setDetail } = useContext(UrlContext);
 	// const [opent, setOpent] = React.useState(false);
-    const [setOpent] = React.useState(false);
+	const [setOpent] = React.useState(false);
 	const notify = () => toast('Image does not contain any plant');
 
 	// const handleCloset = (event, reason) => {
@@ -100,7 +100,7 @@ const UploadForm = ({ navigation }) => {
 					setProgress(0);
 
 					fetch(
-						 'https://us-central1-plantrs-ph.cloudfunctions.net/api/callVision',
+						'https://us-central1-plantrs-ph.cloudfunctions.net/api/callVision',
 						{
 							method: 'POST', // or 'PUT'
 							headers: {
@@ -189,7 +189,6 @@ const UploadForm = ({ navigation }) => {
 
 						<p style={{}}>Drop files here</p>
 					</div>
-					<ul>{fileRejectionItems}</ul>
 
 					<div>
 						<Button
