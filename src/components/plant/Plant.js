@@ -66,12 +66,12 @@ class Plant extends Component {
                     commentCount 
                 },
                 user: {
-                    authenticated, credentials: { handle } // TO DO replace with { handle, role }
+                    authenticated, credentials: { handle } 
                 } 
             } = this.props;
         
         const deleteButton = 
-        authenticated && userHandle === handle ? ( // TODO include OR for role = moderator
+        authenticated && userHandle === handle ? ( 
             <DeletePlant plantId={plantId} />
         ) : null;
         return (
